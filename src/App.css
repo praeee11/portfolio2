@@ -1,17 +1,67 @@
 body {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 5rem; /* gives a little breathing room under the fixed nav */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
 }
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
-  padding: 0.75rem 1rem;
+
+.app {
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
   display: flex;
-  gap: 1rem;
-  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 20px;
+  background: #f4f4f4;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 20px;
+}
+
+/* PROJECTS */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+.footer {
+  padding: 20px;
+  background: #111;
+  color: white;
 }
