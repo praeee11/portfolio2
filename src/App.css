@@ -65,3 +65,7 @@ body {
   background: #111;
   color: white;
 }
+.profilepic {
+  height: 100px;
+  width: auto;
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 
-/* ===== NAVBAR COMPONENT ===== */
 const Navbar = () => {
   return (
     <nav className="navbar">
+      
       <h2>Darwin Ramos Jr</h2>
       <ul>
         <li><a href="#about">About</a></li>
@@ -15,7 +15,7 @@ const Navbar = () => {
   );
 };
 
-/* ===== HERO COMPONENT ===== */
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -26,7 +26,7 @@ const Hero = () => {
   );
 };
 
-/* ===== ABOUT COMPONENT ===== */
+
 const About = () => {
   return (
     <section id="about" className="section">
@@ -38,7 +38,7 @@ const About = () => {
   );
 };
 
-/* ===== PROJECTS COMPONENT ===== */
+
 const Projects = () => {
   return (
     <section id="projects" className="section">
@@ -47,8 +47,8 @@ const Projects = () => {
       <div className="projects-container">
 
         <div className="project-card">
-          <h3>Project One</h3>
-          <p>Short description of your project.</p>
+          <h3>Kitchen Ai</h3>
+          <p>AI-powered kitchen assistant that helps with recipe suggestions and cooking instructions. You only need to upload an image of an ingredient to get started.</p>
           <a href="#">View Project</a>
         </div>
 
@@ -69,7 +69,7 @@ const Projects = () => {
   );
 };
 
-/* ===== CONTACT COMPONENT ===== */
+
 const Contact = () => {
   return (
     <section id="contact" className="section">
@@ -80,7 +80,7 @@ const Contact = () => {
   );
 };
 
-/* ===== FOOTER COMPONENT ===== */
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -89,7 +89,7 @@ const Footer = () => {
   );
 };
 
-/* ===== MAIN APP ===== */
+
 const App = () => {
   return (
     <div className="app">
