@@ -4,12 +4,12 @@ import "./App.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      
       <h2>Darwin Ramos Jr</h2>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
     </nav>
   );
@@ -37,6 +37,15 @@ const About = () => {
     </section>
   );
 };
+
+const Skills = () => {
+  return (
+    <section id="skills" className="section">
+      <h2>Skills</h2>
+      <p>Currently, I am proficient in Java, React, Flutter, mySQL, HTML, CSS and JavaScript. As of right now, I am mastering React for frontend development.</p>
+    </section>
+  );
+}
 
 
 const Projects = () => {
@@ -84,7 +93,7 @@ const Contact = () => {
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2026 Your Name. All rights reserved.</p>
+      <p>© 2026 Darwin Ramos Jr. All rights reserved.</p>
     </footer>
   );
 };
@@ -96,6 +105,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
       <Projects />
       <Contact />
       <Footer />
