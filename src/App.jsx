@@ -93,7 +93,7 @@ const Contact = () => {
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© 2026 Darwin Ramos Jr. All rights reserved.</p>
+      <p>Empty</p>
     </footer>
   );
 };
