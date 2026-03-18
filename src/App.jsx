@@ -42,7 +42,7 @@ const Skills = () => {
   return (
     <section id="skills" className="section">
       <h2>Skills</h2>
-      <p>Currently, I am proficient in Java, HTML, CSS, and a little bit of github. As of right now, I am mastering Java as my primary programming language.</p>
+      <p>Currently, I am proficient in Java, HTML, CSS, React and a little bit of github. As of right now, I am mastering Java as my primary programming language.</p>
     </section>
   );
 }
